@@ -1,0 +1,15 @@
+{
+  "name": "university-physics-learning",
+  "version": "1.0.0",
+  "private": true,
+  "description": "纯静态大学物理学习站：15章课程、练习、实验与学习记录",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "start": "node scripts/serve.js",
+    "check": "node scripts/check.js",
+    "test": "npm run check",
+    "test:browser": "node scripts/test-browser.js",
+    "build": "node tests/build-standalone.js",
+    "pack:source": "node scripts/pack-source.js"
+  }
+}
